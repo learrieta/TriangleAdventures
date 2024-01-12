@@ -1,0 +1,137 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<section class="Home_Banner">
+    <div class="video-container">
+        <video autoplay muted loop class="peru_video">
+            <source class="videos" src="{% static 'images/home_page/e-bike.mp4' %}">
+        </video>
+        <h1 class="home_title">The Triangle's  only<br> E-Bike Touring <br>Company.</h1>
+        <div class='hero-btns'>
+            <Button class='btns--get--started' >
+                <a href="{% url 'tours' %}"> E-bike Tours &nbsp;&nbsp; <i class="fa-solid fa-arrow-right-long" style ="color: #fff !important;"></i></a>
+            </Button>
+        </div>
+    </div>    
+</section>
+
+<section class="Home_Intro">
+    <div class="container">
+        <div class="row p-4">
+            <div class=" col-xs-12 col-md-6 pb-5">
+                <div class="card home_workout_cards"  >
+                    <a class="home_card_links" >
+                        <figure class="home_card_figure">
+                            <img src="{% static 'images/home_page/adventure.jpg' %}" class="card-img-top home_workout_images " alt="...">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="home_pre_title" >
+                    <h3>SCENIC SITES, BREWERIES & MORE</h3>
+                </div>
+                <div class="home_during_title">
+                    <h1> <span class="text"></span> The Triangle's hidden Treasures </h1>
+                </div>
+                <div>
+                    <p class="home_paragraph">Triangle Adventures is the most fun kind of business: Started as a passion, which turned into a hobby, which turned into a business.<br>
+                        <br>
+                        We are a husband and wife team who e-biked every weekend on the Mountains to Sea trail around the Triangle area. We kept saying how lucky we were to have such a gorgeous trail in our back yard, yet we wondered how many people live in the area that have never even been on the trail before.<br>
+                        <br>
+                    </p>
+                    <p class="home_paragraph_single">
+                        A “E-Bike Guided Tour” can be an exhilarating and eco-friendly way to explore a city or scenic area
+
+                    </p>
+
+                </div>
+            </div>
+        </div>    
+    </div>
+</section>
+<section class="services_section">
+    <div class="container-fluid">
+        <div class="row p-5">
+            <div class="col-xs-12  col-md-3 p-3">
+                <div class="card home_workout_cards" >
+                    <div class="home_card">
+                        <a class="home_card_links" href="{% url 'twohour' %}">
+                            <img src="{% static 'images/home_page/scenic.jpg' %}" class="card-img-top home_card_conf " alt="...">
+                        </a>
+                    </div>
+                    <div class="card-body home_card_padding">
+                        <h4 class="card-title home_card_ttext">2 Hour Scenic Adventure</h4>
+                        <p class="card-text home_card_tetext">Gorgeous scenic ride on the NC Mountains to Sea Trail.Beautiful scenery, exhilarating E-Bike ride. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12  col-md-3 p-3">
+                <div class="card home_workout_cards"  >
+                    <div class="home_card">
+                        <a href="{% url 'threehour' %}" class="home_card_links" >
+                            <img src="{% static 'images/home_page/brew.jpg' %}" class="card-img-top home_card_conf " alt="...">
+                        </a>
+                    </div>
+                    <div class="card-body home_card_padding">
+                        <h4 class="card-title home_card_ttext">3 Hour Brewery Adventure</h4>
+                        <p class="card-text home_card_tetext">Stop at one of the Triangle's premiere breweries (brewery may change depending on route and starting location).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12  col-md-3 p-3">
+                <div class="card home_workout_cards"  >
+                    <div class="home_card">
+                        <a href="{% url 'fourhour' %}" class="home_card_links" >
+                            <img src="{% static 'images/home_page/mist.png' %}" class="card-img-top home_card_conf " alt="...">
+                        </a>
+                    </div>
+                    <div class="card-body home_card_padding">
+                        <h4 class="card-title home_card_ttext">4 Hour Mystery Adventure</h4>
+                        <p class="card-text home_card_tetext">We don't run this adventure very often, so trust us, it is seriously awesome. It's never exactly the same twice.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12  col-md-3 p-3">
+                <div class="card home_workout_cards"  >
+                    <div class="home_card">
+                        <a class="home_card_links" href="https://squareup.com/appointments/buyer/widget/jtza7ynhnqugll/LFJHA78277SG7">
+                            <img src="{% static 'images/home_page/buy.jpg' %}" class="card-img-top home_card_conf " alt="...">
+                        </a>
+                    </div>
+                    <div class="card-body home_card_padding">
+                        <h4 class="card-title home_card_ttext">Aventon E-Bike Test Drives (FREE)!</h4>
+                        <p class="card-text home_card_tetext">Thinking about buying an E-Bike but want to test drive one first? We are an Authorized Dealer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sign-up_section">
+    <div class="container">
+        <h2 class="stay">Stay In Touch</h2>
+        <p class="future"> Sign up to receive future offers
+            and updates from us!
+        </p>
+        <div class="contact_us_butt">
+            <button class="book_f"  type="button"><a class="book_faq" target="_blank" href="https://squareup.com/customer-programs/enroll/117pbzsBXauM?utm_medium=copied-link&utm_source=online!"  > Newsletter!</a></button>
+        </div>
+    </div>
+</section>        
+
+
+        
+<section class="home_last_section">
+    <div class="video-container">
+        <img src="{% static 'images/home_page/city.jpg' %}"">
+            
+        <h1 class="home_title">Explore With Us!</h1>
+        <h3 class="explore"> Just pick your speed, and we’ll plan a tour that makes sure everyone in your group has a great time.</h3>
+        <div class="contact_us_butt">
+            <button class="book_f"  type="button"><a class="book_faq" href="{% url 'tours' %}"  >Choose Tour&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long" style ="color: #fff !important;"></i></a></button>
+        </div>
+    </div>    
+</section>
+{% endblock%}

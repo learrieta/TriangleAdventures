@@ -1,0 +1,126 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<section class="tours_first_section">
+    <div class="image-container">
+        <img class="background_tour" src="{% static 'images/tours/faq.jpg' %}">
+        <div class="container">
+            <h1 class="tour_title">How it Works</h1>
+        </div>
+    </div>    
+</section>
+<section class="faq_container">
+    <div class="container">
+        <div class="row m-5">
+            
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h1 class="accordion_title">How to book</h1>
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li class="highlight_list_faq">Pick your preferred adventure. (Come back often because we add adventure packages regularly for holidays and events!)</li>
+                            <li class="highlight_list_faq">Click on the calendar link, and select the date you want to go. Keep in mind, we don’t run adventures every day, so make sure it’s on an available day. Typically weekends only, for now. </li>
+                            <li class="highlight_list_faq">Click Book Now.</li>
+                            <li class="highlight_list_faq">Go to the payment screen, register, then check out. Select any optional extras you’d like to add to your experience. </li>
+                            <li class="highlight_list_faq">That’s it! You will be emailed the starting point. Please show up 15 minutes early to your experience.</li>
+                            <li class="highlight_list_faq">Any questions, please email us at: info@triangle-adventures.com</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h1 class="accordion_title">What We Provide</h1>
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li class="highlight_list_faq">Pedal assist, state of the art E-Bike</li>
+                            <li class="highlight_list_faq">Small snack</li>
+                            <li class="highlight_list_faq">Bottled water</li>
+                            <li class="highlight_list_faq">Disinfected helmet (you are welcome to bring your own if preferred)</li>
+                            <li class="highlight_list_faq"> Instruction on bikes, program overview, safety briefing.</li>
+                            <li class="highlight_list_faq"> If you love the bike and want to purchase a brand new one, just ask. We can even build them for you. </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h1 class="accordion_title">What To Bring</h1>
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li class="highlight_list_faq">Bring layered warm clothes just in case. Even 80 degree weather on an e-bike can feel a bit chilly.</li>
+                            <li class="highlight_list_faq">Close-toed shoes</li>
+                            <li class="highlight_list_faq">Your ID and credit cards for purchases of additional drinks or food during the adventure. </li>
+                            
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>        
+</section>
+<section class="tours_first_section">
+  <div class="image-container">
+      <img class="background_tour" src="{% static 'images/tours/tour_end_banner.jpg' %}">
+      <div class="container">
+          <h2 class="tour_title_faq">Book Your Adventure Today!</h2>
+          <div class="row justify-content-md-center">
+            <div class="contact_us_butt">
+              <button class="book_f"  type="button"><a class="book_faq" href="{% url 'tours' %}"  >Choose Tour&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long" style ="color: #fff !important;"></i></a></button>
+            </div>
+        </div>
+      </div>
+  </div>    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock%}

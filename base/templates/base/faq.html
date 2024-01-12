@@ -1,0 +1,217 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<section class="tours_first_section">
+    <div class="image-container">
+        <img class="background_tour" src="{% static 'images/tours/faq.jpg' %}">
+        <div class="container">
+            <h1 class="tour_title">FAQ</h1>
+        </div>
+    </div>    
+</section>
+<section class="faq_container">
+    <div class="container">
+        <div class="row">
+            <div class=" col-xs-12 col-md-4 mt-5">
+                <div class="home_during_title">
+                    <h1>We're here to help</h1>
+                </div>
+                <div>
+                    <p class="home_paragraph_faq">
+                        We aim to craft the perfect day where every guest departs with a sense of awe and wonder for this incredible area
+                    </p>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="contact_us_butt">
+                      <button class="book_f"  type="button"><a  href="{% url 'contact' %}" class="book_faq" >Contact Us</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12  col-md-8 mt-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h1 class="accordion_title">What if there is severe weather?</h1>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="faq_elemets">Safety is our number one priority, so if weather is severe, we will communicate that out to our
+                            riders prior to the adventure beginning. We normally run rain or shine, so as long as the
+                            weather is not severe, we will still run the tours.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <h1 class="accordion_title">What is the cancellation policy?</h1>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="faq_elemets">Full refunds will be given if cancellations are made 72 hours ahead of time. If less than 72 hours
+                                ahead of time, a 50% refund will be given. Rescheduling is always preferred, but refunds will be
+                                given when rescheduling is not possible. 
+                            </p>    
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h1 class="accordion_title">Will there be parking at the starting point?</h1>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="faq_elemets">Absolutely. But some of the places we meet may have a limited amount of parking spots, so
+                                carpooling is preferred whenever possible.
+                            </p>   
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <h1 class="accordion_title">Can I purchase new bikes through you?</h1>
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="faq_elemets">Absolutely. We are an authorized dealer with Aventon E-Bikes. If you ride a bike that you love,
+                                you can ask to purchase through us and we can even build it for you. We also keep some brand
+                                new bikes in stock, pre-built, ready for purchase. Just ask and we can give you all the details.
+                            </p>   
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <h1 class="accordion_title">How do the test drives work?</h1>
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="faq_elemets">On certain days throughout the year, we offer FREE test drives. Just sign up, come out, and try
+                                out the bikes for free. No gimmicks, no hidden fees. Test drives typically last about 10 minutes.                                
+                            </p>   
+                            <ul>
+                                <li class="highlight_list_faq">If you love the bikes and decide you want to purchase, we can help you with that.</li>
+                                <li class="highlight_list_faq">If you decide to sign up for an adventure, we can also help you with that</li>
+                                <li class="highlight_list_faq">If you decide to test drive and do nothing else, that’s fine as well!</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                          <h1 class="accordion_title">Are there limitations on riders based on size, age, fitness level?</h1>
+                        </button>
+                      </h2>
+                      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                        <div class="accordion-body"> 
+                            <ul>
+                                <li class="highlight_list_faq">Size: The bikes all fit a wide range of sizes, but we have some slightly larger and some
+                                  slightly smaller than others in order to accommodate more people comfortably. The
+                                  bikes do have a weight limit of 300 pounds, so smaller or larger people may need to
+                                  adjust their expectations of comfort slightly.</li>
+                                <li class="highlight_list_faq">Age: Anyone from ages 13 to 113 can ride the bikes, as long as they are taller than 4’11”
+                                  and are skilled at handling bikes in general. </li>
+                                <li class="highlight_list_faq">Fitness level: Any fitness level is welcome! These bikes are very easy to ride and have
+                                  pedal assist functions to help you pedal. If you want more exercise, turn the pedal assist
+                                  down. If you want to let the bike do the work, crank the pedal assist up. It’s a blast for
+                                  everyone. </li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <h1 class="accordion_title">Can I bring my own equipment?</h1>
+                          </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faq_elemets">You can certainly bring your own helmet, as long as it is a CPSC certified bike helmet, however
+                                    we provide disinfected helmets. If you have your own E-Bike and are looking to use it on an
+                                    adventure, please contact us first and let us know.
+                                </p>   
+                           </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <h1 class="accordion_title">What if I accidentally have too many drinks?</h1>
+                          </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faq_elemets">We want you to have lots of fun, but moderation is key. Our job is to keep people safe, so if
+                                    someone appears too inebriated to ride the bike in a responsible manner, we reserve the right
+                                    to discontinue the tour for that person. That person would be responsible for getting a ride
+                                    home. 
+                                </p>   
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+</section>
+<section class="tours_first_section">
+  <div class="image-container">
+      <img class="background_tour" src="{% static 'images/tours/tour_end_banner.jpg' %}">
+      <div class="container">
+          <h2 class="tour_title_faq">Book Your Adventure Today!</h2>
+          <div class="row justify-content-md-center">
+            <div class="contact_us_butt">
+              <button class="book_f"  type="button"><a class="book_faq" href="{% url 'tours' %}"  >Choose Tour&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long" style ="color: #fff !important;"></i></a></button>
+            </div>
+        </div>
+      </div>
+  </div>    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock%}

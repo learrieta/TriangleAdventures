@@ -1,0 +1,153 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<section class="tours_first_section">
+    <div class="image-container">
+        <img class="background_tour" src="{% static 'images/tours/faq.jpg' %}">
+        <div class="container">
+            <h1 class="tour_title">Contact Us</h1>
+        </div>
+    </div>    
+</section>
+<section class="faq_container">
+    <div class="container">
+        <div class="row">
+            <div class=" col-xs-12 col-md-4 p-3">
+                <div class="row">
+                    <div class="home_during_title_contact">
+                        <h1>Get In Touch</h1>
+                        <p class="home_paragraph_faq_contact">
+                            Let our staff know how we can help!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-3 mb-3">
+                    <div class="col-md-4">
+                        <div class="contact_logo">
+                            <img class="contact_us_icon" src="{% static 'images/tours/smartphone.svg' %}">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="us_contact">
+                            <h1>Talk to one of our humans</h1>
+                            <p class="us_paragraph_contact">
+                                Please give us a call at 845-633-6909 and we'd be happy to chat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-3">
+                    <div class="col-md-4">
+                        <div class="contact_logo">
+                            <img class="contact_us_icon" src="{% static 'images/tours/mail.svg' %}">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="us_contact">
+                            <h1>Write a note</h1>
+                            <p class="us_paragraph_contact">
+                                You can send us a message anytime at Info@Triangle-Adventures.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="col-xs-12  col-md-8  mr-5 ml-5 p-3">
+                <div class="align_card">
+                    <div class="card" style="width: 40rem;">
+                        
+                        <div class="card m-3">
+                            <div class="card-body p-5">
+                                <form action="/contactus/" method="post">
+                                    {% csrf_token %}
+                                    <div class="home_during_title_contact p-3">
+                                        <h1>Send an email</h1>
+                                    </div>
+                                    <div class="form-group p-3">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-md-6 p-3">
+                                                <input type="text" class="form-control" name="first_name" id="first_name"  placeholder="First Name">
+                                            </div>
+                                            <div class="col-xs-12 col-md-6 p-3">
+                                                <input type="text" class="form-control" name="last_name" id="last_name"  placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="form-group p-3">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group p-3">
+                                        <textarea class="form-control" id="message" type="text" placeholder="Message" name="message" style="height: 10rem;"></textarea>
+                                    </div>
+                                    <div class="d-grid p-3">
+                                        <button class="btn btn-primary btn-lg" value="Submit" type="submit">Submit</button>
+                                      </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                            
+                        
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>        
+</section>
+<section class="tours_first_section">
+  <div class="image-container">
+      <img class="background_tour" src="{% static 'images/tours/tour_end_banner.jpg' %}">
+      <div class="container">
+          <h2 class="tour_title_faq">Book Your Adventure Today!</h2>
+          <div class="row justify-content-md-center">
+            <div class="contact_us_butt">
+              <button class="book_f"  type="button"><a class="book_faq" href="{% url 'tours' %}"  >Choose Tour&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long" style ="color: #fff !important;"></i></a></button>
+            </div>
+        </div>
+      </div>
+  </div>    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock%}

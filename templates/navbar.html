@@ -1,0 +1,44 @@
+
+
+{% load static %}
+<nav class="navbar navbar-expand-xl">
+    <div class="container">
+        <div class="logo">
+            <a  href="/"><img class="limitless-logo" src="{% static 'images/logo.png' %}"></a>
+        </div>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="nav navbar-nav ms-auto">
+                    <li class="nav-item-a">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item-a">
+                        <a class="nav-link" href="{% url 'tours' %}" >Our Tours</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="{% url 'who' %}">Who are we </a></li>
+                            <li><a class="dropdown-item" href="{% url 'how' %}">How it works?</a></li>
+                            <li><a class="dropdown-item" href="{% url 'faq' %}">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item-a">
+                        <a class="nav-link"  href="{% url 'contact' %}" >Contact Us</a>
+                    </li>
+                    <li class="nav-item-b">
+                        <button class="signup-button"  type="button"><a  href="https://squareup.com/appointments/book/lrpjiyv0x9p1tp/LFJHA78277SG7/start" rel="nofollow" class="sign-upb" target="_blank" >Book your next Adventure!</a></button>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    
+</nav>

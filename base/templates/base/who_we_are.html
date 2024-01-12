@@ -1,0 +1,148 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<section class="tours_first_section">
+    <div class="image-container">
+        <img class="background_tour" src="{% static 'images/tours/faq.jpg' %}">
+        <div class="container">
+            <h1 class="tour_title">Who Are We!</h1>
+        </div>
+    </div>    
+</section>
+
+<section class="Home_Intro">
+    <div class="container">
+        <div class="row p-5">
+            <div class=" col-xs-12 col-md-6 pb-3">
+                <div class="card home_workout_cards"  >
+                    <a class="home_card_links" >
+                        <figure class="home_card_figure">
+                            <img src="{% static 'images/home_page/adventure.jpg' %}" class="card-img-top home_workout_images " alt="...">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="home_pre_title" >
+                    <h3>Exclusive Adveture Trips</h3>
+                </div>
+                <div class="home_during_title">
+                    <h1> Creating real connections & authentic experiences</h1>
+                </div>
+                <div>
+                    <p class="home_paragraph">
+                        Our mission is to create experiences that are engaging and active while being approachable to everyone. We aim to make sure that all of our trips surround a meaningful experience in the beautiful Triangle Area outdoors and leave all of our guests with a sense of accomplishment and fulfillment when they get done. <br>
+                        <br>
+                        We offer small, exclusive trips, with no more than 10 guests, because we want to make real connections with our guests and vice versa. We offer experiences that cannot be found through web research and guidebooks by creating unique itineraries and activities that we would want to do ourselves. 
+                    </p>
+                    
+
+                </div>
+            </div>
+        </div>    
+    </div>
+</section>
+
+<section class="who_are_we">
+    <div class="container">
+        <div class="row p-2">
+            <h1 class="choose_tour">Meet Our Tour Guides</h1>
+            <div class="col-xs-12  col-md-6">
+                <div class="cards_margins">
+                    <div class="card" style="width: 100%;height: 100%;">
+                        <div class="card-body">
+                            <div class="card ml-5 mr-5">
+                                <img src="{% static 'images/home_page/scenic.jpg' %}" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card m-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">David Harrington</h5>
+                                    <p class="card-text">Jared grew up on a farm in Kansas and has been in Western North Carolina for the past five years. He developed his love for the outdoors at a young age when backpacking and camping became his favorite pastimes. After college, Jared ventured down the corporate path for a few years but eventually, mother nature came a-calling. If not found mountain biking or paddling the whitewater rivers of the Southeast, he may be found camping somewhere else!</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-xs-12  col-md-6">
+                <div class="cards_margins">
+                    <div class="card" style="width: 100%;height: 100%;">
+                        <div class="card-body">
+                            <div class="card ml-5 mr-5">
+                                <img src="{% static 'images/home_page/scenic.jpg' %}" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card m-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Marlo Harrington</h5>
+                                    <p class="card-text">Jared grew up on a farm in Kansas and has been in Western North Carolina for the past five years. He developed his love for the outdoors at a young age when backpacking and camping became his favorite pastimes. After college, Jared ventured down the corporate path for a few years but eventually, mother nature came a-calling. If not found mountain biking or paddling the whitewater rivers of the Southeast, he may be found camping somewhere else!</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="tours_first_section">
+  <div class="image-container">
+      <img class="background_tour" src="{% static 'images/tours/tour_end_banner.jpg' %}">
+      <div class="container">
+          <h2 class="tour_title_faq">Book Your Adventure Today!</h2>
+          <div class="row justify-content-md-center">
+            <div class="contact_us_butt">
+              <button class="book_f"  type="button"><a class="book_faq" href="{% url 'tours' %}"  >Choose Tour&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long" style ="color: #fff !important;"></i></a></button>
+            </div>
+        </div>
+      </div>
+  </div>    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock%}

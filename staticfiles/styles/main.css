@@ -1,0 +1,792 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;;
+
+}
+/*NAVBAR*/
+
+.navbar{
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(29, 25, 25) 100%);
+    padding: 0px !important;
+}
+
+.logo{
+
+    height: 130px;
+}
+
+
+.limitless-logo{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav-item-a a{
+    color: #ffffff !important;
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 25px;
+}
+.nav-item-a a:hover{
+    
+    border-bottom: 3px solid #F96B00
+
+}
+
+.nav-item-b a{
+    color: #ffffff !important;
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 25px;
+}
+.nav-item-b{
+    display: flex;
+    justify-content: center;
+}
+.nav-item-b :hover{
+    
+    background-color:  #F96B00;
+
+}
+
+.nav-item a{
+    color: #ffffff !important;
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    
+}
+.nav-item a:hover{
+    border-bottom: 3px solid #F96B00
+  
+}
+.signup-button {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: initial;
+    color: #fff;
+    font-size: 18px;
+    border: 3px solid #F96B00;
+    margin: 0 20px;
+}
+.sign-upb{
+    text-decoration: none;
+}
+
+/*Home Section*/
+
+.Home_Banner{
+    padding-bottom: 30px;
+}
+
+.video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%);
+
+}
+.video-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%);
+
+}
+.video-container {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+    
+.video-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.video-container a{
+    text-decoration: none;
+    color: #fff;
+}
+.video-container a:hover{
+    text-decoration: none;
+    color: #F96B00;
+}
+
+
+
+.hero-btns {
+    margin-top: 32px;
+}
+
+.hero-btns .btnswatch--trailer, .btns--get--started {
+    margin: 10px;
+}
+
+.fa-play-circle {
+    margin-left: 4px;
+}
+
+.btns--get--started{
+    font-size: 30px;
+    padding: 12px 26px;
+    background-color: initial;
+    color: white;
+    border: 2px solid  #F96B00;
+    transition: all .3s ease-out;
+    cursor: pointer;
+    outline: none;
+    background-color: #F96B00;
+}
+
+
+.btns--get--started:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+}
+
+/*Epic Workout Section*/
+
+
+
+.home_workout_cards{
+    border-radius: 15px;
+}
+
+.home_card_links{
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(217, 224, 235, 0.17);
+    filter: drop-shadow(0 6px 20px rgba(210, 222, 245, 0.017));
+    text-decoration: none;
+    cursor: pointer;
+}
+.home_card_figure{
+    margin: 0;
+}
+.home_workout_images{
+    position: relative;
+    z-index: -1;
+}
+.home_pre_title{
+    margin: 0 50px;
+    text-align: left;
+}
+.home_during_title{
+    margin: 0 50px;
+    text-align: center;
+    
+}
+.home_during_title h1 {
+    font-size: 50px;
+}
+.home_during_title h1 span{
+    color: #F96B00;
+}
+
+.home_paragraph{
+    margin: 0 50px;
+    font-family: sans-serif !important;
+    font-weight:normal;
+    font-size: 18px;
+    color: #888585;
+    line-height: 25px;
+}
+.home_paragraph_single{
+    margin: 0 50px;
+    font-family: sans-serif !important;
+    font-weight:bold;
+    font-size: 17px;
+    color: #888585;
+    line-height: 23px;
+}
+.bolder_p{
+    font-size: 17px;
+}
+
+
+
+/*Services Section*/
+.tours_Intro{
+    margin-bottom: 20px;
+}
+.home_workout_cards{
+    border-color: #d2cfcc !important;
+    box-shadow: 0 6px 20px rgba(217, 224, 235, 0.17) !important;
+}
+
+.home_card :hover{
+    border: 8px solid #F96B00;
+    
+    opacity: 100%;
+}
+
+.home_card_ttext{
+    color: #000000;
+    font-size: 25px;
+    line-height: 24px;
+}
+.home_card_tetext{
+    color: #6d6c6c;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: lighter !important;
+    font-family: sans-serif;
+}
+
+.home_card{
+    height: 270px !important;
+}
+
+.home_card_conf{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.check_epic_title{
+    font-size: 100px;
+}
+.explore{
+    color: #fff;
+    font-size: 35px;
+}
+
+
+/*Tours Section*/
+
+.tours_hassle_free{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: linear-gradient( rgba(255, 122, 89,1), rgba(255, 114, 78, 0));
+}
+.home_paragraph_tour{
+    margin: 0 50px;
+    font-family: sans-serif !important;
+    font-weight:normal;
+    font-size: 18px;
+    color: #888585;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.background_tour {
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%);
+
+}
+.image-container {
+    height: 48vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+
+
+.second_background_tour {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%);
+
+}
+.second_image-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); 
+   
+}
+
+    
+.container > h1 {
+    color: #fff;
+    font-size: 100px;
+    display: flex !important;
+    text-align: left !important;
+}
+
+.container  h5{
+    padding-top: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    
+}
+.card-text{
+    font-family: sans-serif !important;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: center;
+}
+.emoticons{
+    width: 10rem;
+    height: 10rem;
+    
+}
+.iconer{
+    max-width: 100%;
+    
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-color: #F96B00;
+    border-width: 10px;
+}
+
+.card{
+    
+    --bs-card-border-width: 3px !important;
+    --bs-card-border-color: rgba(249, 107, 0)!important;
+}
+
+.tours_section{
+    margin-top: 100px;
+}
+
+.choose_tour{
+    font-size: 50px !important;
+    font-weight: normal !important;
+    line-height: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin-top: 30px !important;
+    color: #000000 !important;
+    
+}
+
+.tour_title_end{
+    font-size: 45px !important;
+    font-weight: normal;
+    line-height: 100px;
+    text-align: center;
+    
+}
+.tour_title_two{
+    font-size: 55px !important;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: left;
+    color: #fff;
+    margin-top: 30px;
+}
+.highlights{
+    font-size:30px !important;
+    font-weight: normal;
+    
+    
+}
+
+.highlight_list{
+    display: list-item;
+    list-style-type: square;     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside;
+    margin-left: 2rem;
+    color: #6d6c6c;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: lighter !important;
+    font-family: sans-serif;
+}
+
+.card-text_tour{
+    
+    font-size: 25px;
+    font-weight: light;
+    line-height: 30px;
+    text-align: center;
+}
+.card-body-two{
+    border-color: #F96B00;
+    border-width: 10px;
+    margin: 20px;
+}
+.book_trip{
+    text-decoration: none;
+    padding: 8px 8px;
+    background-color: #F96B00;
+    border: 3px solid #F96B00;
+    border-radius: 10px;
+    
+    
+}
+.book_t{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.book_t:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.book_trip:hover{
+    transform: scale(1.2);
+}
+
+.about_adventure{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #f96c0015;
+    
+}
+.about_adventure_title{
+    color: #000000 !important;
+    font-size: 65px !important;
+    display: flex !important;
+    justify-content: left !important;
+    text-align: left !important;
+}
+.highlights_inte{
+    font-size:45px !important;
+    font-weight: normal;   
+}
+
+.highlight_list_inte{
+    
+    color: #6d6c6c;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: lighter !important;
+    font-family: sans-serif;
+}
+
+.faq_container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.book_faq{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.book_faq:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.accordion_title{
+    font-size: 25px;
+}
+.home_paragraph_faq{
+    font-family: sans-serif !important;
+    font-weight: bold;
+    font-size: 15px;
+    color: #888585;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.faq_elemets{
+    font-family: sans-serif !important;
+    font-weight: bold;
+    font-size: 15px;
+    color: #888585;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.accordion{
+    
+    
+    --bs-accordion-active-color:  rgba(249, 107, 0)!important;
+    --bs-accordion-btn-focus-border-color:  rgba(249, 107, 0)!important;
+    --bs-accordion-active-bg: rgba(249, 108, 0, 0.374)!important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+.highlight_list_faq{
+    display: list-item;
+    list-style-type: square;     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside;
+    font-family: sans-serif !important;
+    font-weight: bold;
+    font-size: 15px;
+    color: #888585;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.book_f{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 8px 8px;
+    background-color: #F96B00;
+    border: 3px solid #F96B00;
+    border-radius: 10px;
+}
+.book_f:hover{
+    transform: scale(1.2);
+}
+.contact_us_butt{
+    display: flex;
+    justify-content: center;
+}
+.tour_title_faq{
+    font-size: 75px !important;
+    font-weight: normal;
+    line-height: 100px;
+    text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+    color: #fff;
+}
+.home_during_title_contact{
+    text-align: center;
+}
+.home_during_title_contact h1{
+    font-size: 50px;
+}
+.home_paragraph_faq_contact{ 
+    font-family: sans-serif !important;
+    font-weight: bold;
+    font-size: 18px;
+    color: #888585;
+    line-height: 25px;
+    padding-bottom: 20px;
+    
+}
+
+
+.align_card{
+    display: flex;
+    justify-content: center;
+}
+.contact_logo{
+    width: 100px;
+    height: 100px;
+}
+.contact_us_icon{
+    width: 100%;
+}
+
+.us_contact{
+    text-align: left;
+}
+.us_contact h1{
+    font-size: 30px;
+}
+.us_paragraph_contact{ 
+    font-family: sans-serif !important;
+    font-weight: bold;
+    font-size: 15px;
+    color: #888585;
+    line-height: 25px;
+    padding-bottom: 20px;
+    text-align: left;
+    
+}
+.form-control{
+    font-size: 1.5rem !important;
+
+}
+.btn-primary{
+    --bs-btn-bg: #F96B00 !important;
+    --bs-btn-border-color: #F96B00 !important;
+    --bs-btn-hover-bg: #F96B00 !important;
+    --bs-btn-hover-border-color: #c45704 !important;
+    --bs-btn-active-bg: #F96B00 !important;
+    --bs-btn-active-border-color: #F96B00 !important;
+    --bs-btn-disabled-bg: #F96B00 !important;
+    --bs-btn-disabled-border-color: #F96B00 ;
+}
+
+
+.cards_margins{
+    margin: 60px;
+}
+
+.sign-up_section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #f96c0015;
+}
+.future{
+    font-size: 45px !important;
+    font-weight: normal;
+    text-align: center;
+}
+
+.stay{
+    color: #000000 !important;
+    font-size: 60px;
+    
+    text-align: center !important;
+}
+/*FOOTER*/
+.footer {
+    background: linear-gradient(90deg, rgb(20, 19, 19) 0%, rgb(26, 23, 23) 100%);
+    font-family: 'PT Sans';
+    color: #ffffff;
+}
+.footer_titles{
+    text-align: left;
+
+}
+.footer_lists{
+    text-decoration: none !important;
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.media_icon{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+ul{
+    list-style-type: none;
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+}
+.copyright_b{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .video-container h1{
+        color: #fff;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .explore{
+        font-size: 30px;
+        text-align: center;
+    }
+    .tours_Intro{
+        padding: 30px;
+        margin: 0;
+    }
+    .second_image-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); 
+        padding: 40px;
+    }
+    .second_background_tour{
+        display: none;
+    }
+    .tours_hassle_free{
+        margin: 0;
+        background: #F96B00;
+    }
+    .tour_title{
+        display: flex !important;
+        justify-content: center !important;
+        font-size: 50px;
+
+    }
+    .home_pre_title{
+        margin: 0 ;
+        text-align: left;
+    }
+    .home_during_title{
+        margin: 0 ;
+        text-align: center;
+        
+    }
+    .home_paragraph {
+        margin: 0;
+        font-family: sans-serif !important;
+        font-weight: normal;
+        font-size: 18px;
+        color: #888585;
+        line-height: 25px;
+    }
+    .home_paragraph_single {
+        margin: 0;
+        font-family: sans-serif !important;
+        font-weight: bold;
+        font-size: 17px;
+        color: #888585;
+        line-height: 23px;
+    }
+    .container > h1 {
+        color: #fff;
+        font-size: 60px !important;
+        display: flex !important;
+        text-align: center !important;
+    }
+    .home_paragraph_tour {
+        margin: 0;
+        font-family: sans-serif !important;
+        font-weight: normal;
+        font-size: 18px;
+        color: #888585;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+    .tour_title_end {
+        font-size: 45px !important;
+        font-weight: normal;
+        line-height: 60px;
+        text-align: center;
+    }
+    .cards_margins{
+        margin: 10px;
+    }
+    .tour_title_faq {
+        font-size: 60px !important;
+        font-weight: normal;
+        line-height: 100px;
+        text-align: center;
+        display: flex !important;
+        justify-content: center !important;
+        color: #fff;
+    }
+   
+    
+}
