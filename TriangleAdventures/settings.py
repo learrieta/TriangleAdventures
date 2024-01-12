@@ -29,6 +29,8 @@ DEBUG = config('DEBUG', cast = bool)
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = ['web-production-e083.up.railway.app']
+
 
 # Application definition
 
