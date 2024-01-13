@@ -111,13 +111,13 @@
 
 }
 .video-container {
-    height: 85vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    
     object-fit: contain;
 }
     
@@ -304,12 +304,12 @@
 
 }
 .image-container {
-    height: 48vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    
     object-fit: contain;
 }
 
@@ -329,7 +329,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); 
+    
    
 }
 
@@ -690,123 +690,7 @@ ul{
 }
 
 
-@media screen and (max-width: 468px){
-    .video-container h1{
-        color: #fff;
-        font-size: 60px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .video-container {
-        height: 80vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-        object-fit: contain;
-    }
-    .image-container {
-        height: 45vh !important;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-        object-fit: contain;
-    }
-    .explore{
-        font-size: 30px;
-        text-align: center;
-    }
-    .tours_Intro{
-        padding: 30px;
-        margin: 0;
-    }
-    .second_image-container {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); 
-        padding: 40px;
-    }
-    .second_background_tour{
-        display: none;
-    }
-    .tours_hassle_free{
-        margin: 0;
-        background: #F96B00;
-    }
-    .tour_title{
-        display: flex !important;
-        justify-content: center !important;
-        font-size: 50px;
 
-    }
-    .home_pre_title{
-        margin: 0 ;
-        text-align: left;
-    }
-    .home_during_title{
-        margin: 0 ;
-        text-align: center;
-        
-    }
-    .home_paragraph {
-        margin: 0;
-        font-family: sans-serif !important;
-        font-weight: normal;
-        font-size: 18px;
-        color: #888585;
-        line-height: 25px;
-    }
-    .home_paragraph_single {
-        margin: 0;
-        font-family: sans-serif !important;
-        font-weight: bold;
-        font-size: 17px;
-        color: #888585;
-        line-height: 23px;
-    }
-    .container > h1 {
-        color: #fff;
-        font-size: 60px !important;
-        display: flex !important;
-        text-align: center !important;
-    }
-    .home_paragraph_tour {
-        margin: 0;
-        font-family: sans-serif !important;
-        font-weight: normal;
-        font-size: 18px;
-        color: #888585;
-        line-height: 25px;
-        padding-bottom: 20px;
-    }
-    .tour_title_end {
-        font-size: 45px !important;
-        font-weight: normal;
-        line-height: 60px;
-        text-align: center;
-    }
-    .cards_margins{
-        margin: 10px;
-    }
-    .tour_title_faq {
-        font-size: 60px !important;
-        font-weight: normal;
-        line-height: 100px;
-        text-align: center;
-        display: flex !important;
-        justify-content: center !important;
-        color: #fff;
-    }
-   
-    
-}
 
 @media screen and (max-width: 768px){
     .video-container h1{
@@ -826,15 +710,7 @@ ul{
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
         object-fit: contain;
     }
-    .image-container {
-        height: 45vh !important;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-        object-fit: contain;
-    }
+    
     .explore{
         font-size: 30px;
         text-align: center;
