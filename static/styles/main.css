@@ -78,7 +78,7 @@
     padding: 8px 20px;
     background-color: initial;
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
     border: 3px solid #F96B00;
     margin: 0 20px;
 }
@@ -88,9 +88,6 @@
 
 /*Home Section*/
 
-.Home_Banner{
-    padding-bottom: 30px;
-}
 
 .video-container video {
     object-fit: cover;
@@ -111,13 +108,21 @@
 
 }
 .video-container {
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.video-container-b {
     height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 }
     
@@ -304,21 +309,20 @@
 
 }
 .image-container {
-    height: 84vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 }
 .image-container-b {
-    height: 84vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    
     object-fit: contain;
 }
 
