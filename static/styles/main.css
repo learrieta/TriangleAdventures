@@ -350,6 +350,14 @@
     justify-content: center;
     object-fit: contain;
 }
+.image-container-t {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: contain;
+}
 .image-container-b {
     height: 43vh;
     width: 100%;
