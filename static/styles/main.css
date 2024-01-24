@@ -747,6 +747,13 @@ ul{
         justify-content: center;
         text-align: center;
     }
+    .video-container-b h1{
+        color: #fff;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
     .explore{
         font-size: 30px;
         text-align: center;
