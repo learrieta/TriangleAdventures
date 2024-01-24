@@ -395,12 +395,7 @@
     display: flex !important;
     text-align: left !important;
 }
-.container > h2 {
-    color: #fff;
-    font-size: 100px;
-    display: flex !important;
-    text-align: left !important;
-}
+
 
 .container  h5{
     padding-top: 15px;
@@ -829,12 +824,7 @@ ul{
         display: flex !important;
         text-align: center !important;
     }
-    .container > h2 {
-        color: #fff;
-        font-size: 45px !important;
-        display: flex !important;
-        text-align: center !important;
-    }
+    
     .home_paragraph_tour {
         margin: 0;
         font-family: sans-serif !important;
