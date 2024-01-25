@@ -864,8 +864,8 @@ ul{
 
     /*updates*/
     .home_card_tetext{
-        color: #5f5e5e;
-        font-size: 18px;
+        color: #888585;
+        font-size: 16px;
         line-height: 24px;
         font-weight: bold !important;
         font-family: sans-serif;
@@ -875,8 +875,8 @@ ul{
         list-style-type: square;     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
         list-style-position: inside;
         margin-left: 2rem;
-        color: #5f5e5e;
-        font-size: 18px;
+        color: #888585;
+        font-size: 16px;
         line-height: 30px;
         font-weight: bold !important;
         font-family: sans-serif;
