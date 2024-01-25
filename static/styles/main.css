@@ -867,7 +867,7 @@ ul{
         color: #5f5e5e;
         font-size: 18px;
         line-height: 24px;
-        font-weight: normal !important;
+        font-weight: bold !important;
         font-family: sans-serif;
     }
     .highlight_list{
@@ -878,7 +878,7 @@ ul{
         color: #5f5e5e;
         font-size: 18px;
         line-height: 30px;
-        font-weight: normal !important;
+        font-weight: bold !important;
         font-family: sans-serif;
     }
     .highlight_list_inte{
@@ -886,7 +886,7 @@ ul{
         color: #5f5e5e;
         font-size: 18px;
         line-height: 40px;
-        font-weight: normail !important;
+        font-weight: bold !important;
         font-family: sans-serif;
     }
     
