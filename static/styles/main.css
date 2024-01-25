@@ -300,7 +300,7 @@
 }
 
 .home_card{
-    height: 270px !important;
+    height: 250px !important;
 }
 
 .home_card_conf{
@@ -888,6 +888,15 @@ ul{
         line-height: 40px;
         font-weight: bold !important;
         font-family: sans-serif;
+    }
+    .home_card{
+        height: 200px !important;
+    }
+    .home_card_ttext {
+        color: #000000;
+        font-size: 25px;
+        line-height: 24px;
+        text-align: center;
     }
     
 }
