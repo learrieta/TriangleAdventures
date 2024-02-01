@@ -558,10 +558,19 @@
     color: #fff;
     font-size: 25px;
 }
+.book_faq_e{
+    text-decoration: none;
+    color: #F96B00;
+    font-size: 25px;
+}
 
 .book_faq:hover{
     text-decoration: none;
     color: #fff;
+}
+.book_faq_e:hover{
+    text-decoration: none;
+    color: #F96B00;
 }
 
 .accordion_title{
@@ -612,6 +621,18 @@
     border-radius: 10px;
 }
 .book_f:hover{
+    transform: scale(1.2);
+}
+.book_f_e{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 8px 8px;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+.book_f_e:hover{
     transform: scale(1.2);
 }
 .contact_us_butt{
@@ -695,17 +716,32 @@
 .sign-up_section{
     padding-top: 50px;
     padding-bottom: 100px;
-    background-color: #f96c0015;
+    background-color: #f96c00;
 }
 .future{
     font-size: 45px !important;
     font-weight: normal;
     text-align: center;
+    color: #ffffff !important;
 }
 
 .stay{
-    color: #000000 !important;
-    font-size: 60px;
+    color: #ffffff !important;
+    font-size: 50px;
+    
+    text-align: center !important;
+}
+
+.future_e{
+    font-size: 25px !important;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.stay_e{
+    color: #ffffff !important;
+    font-size: 50px;
     
     text-align: center !important;
 }
