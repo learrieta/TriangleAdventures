@@ -45,7 +45,7 @@ def contact(request):
                 'Contact Form Submission from {}'.format(first_name),
                 message,
                 email_from,
-                ['dharringto845@gmail.com'],
+                ['dharrington845@gmail.com'],
                 [],
                 reply_to=[email] 
             ).send()
