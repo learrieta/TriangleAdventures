@@ -101,7 +101,7 @@
 .video-container-promo video {
     object-fit: cover;
     width: 100%;
-    height: 60%;
+    height: 90%;
     position: absolute;
 }
 .video-container img {
