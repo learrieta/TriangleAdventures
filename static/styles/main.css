@@ -101,7 +101,7 @@
 .video-container-promo video {
     object-fit: cover;
     width: 100%;
-    height: 70%;
+    height: 60%;
     position: absolute;
 }
 .video-container img {
@@ -132,7 +132,16 @@
 
 }
 .video-container {
-    height: 110vh;
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.video-container-promo {
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
