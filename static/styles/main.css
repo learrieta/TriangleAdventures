@@ -133,7 +133,6 @@
     justify-content: center;
     align-items: center;
     object-fit: contain;
-    padding: 200px;
 }
 .video-container-b {
     height: 75vh;
