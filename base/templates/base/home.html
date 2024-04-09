@@ -2,6 +2,26 @@
 {% load static %}
 {% block content %}
 
+<section class="pop-promo">
+    <div class="popup" id="popup-1">
+        <div class="overlay">
+            <div class="content">
+                <div class="close-btn">&times;</div>
+                <div class="video-container-promo">
+                    <video autoplay muted loop class="peru_video">
+                        <source class="videos" src="{% static 'images/home_page/promos.mp4' %}">
+                    </video>
+                </div>    
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
 <section class="Home_Banner">
     <div class="video-container">
         <img class="videos" src="{% static 'images/tours/header_pic.jpg' %}">
