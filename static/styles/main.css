@@ -98,6 +98,32 @@
     background-color: rgba(0, 0, 0, .3);
     display: grid;
     place-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 200ms ease-in-out opacity;
+}
+.popup-content{
+    opacity: 0;
+    transform: translateY(20%);
+    transition: 200ms ease-in-out opacity,
+                200ms ease-in-out transform;
+    position: relative;
+}
+.close-btn{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+}
+.close-btn:active{
+    transform: scale(.9);
+}
+.showPopup{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
 }
 
 
