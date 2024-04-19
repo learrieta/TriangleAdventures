@@ -337,6 +337,12 @@
 
 
 /*Services Section*/
+
+.services_section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 50px;
+}
 .tours_Intro{
     margin-bottom: 20px;
 }
@@ -989,7 +995,12 @@ ul{
         font-family: sans-serif;
     }
     .home_card{
-        height: 200px !important;
+        height: 250px !important;
+    }
+    .services_section{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0px;
     }
     .home_card_ttext {
         color: #000000;
