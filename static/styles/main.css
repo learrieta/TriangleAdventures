@@ -364,13 +364,11 @@
     font-family: sans-serif;
 }
 
-.home_card{
-    height: 250px !important;
-}
+
 
 .home_card_conf{
     max-width: 100% !important;
-    max-height: 100% !important;
+    height: 300px;
 }
 
 .check_epic_title{
