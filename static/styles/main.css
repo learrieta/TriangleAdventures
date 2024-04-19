@@ -814,6 +814,12 @@
     
     text-align: center !important;
 }
+.stay_e_t{
+    color: #000000 !important;
+    font-size: 50px;
+    
+    text-align: center !important;
+}
 /*FOOTER*/
 .footer {
     background: linear-gradient(90deg, rgb(20, 19, 19) 0%, rgb(26, 23, 23) 100%);
