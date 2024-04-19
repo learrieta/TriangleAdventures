@@ -31,13 +31,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{% static 'js/main.js' %}"></script>
     <script src="{% static 'js/carousel.js' %}"></script>
+   
     <script>
         const popup = document.querySelector('.popup');
         const x = document.querySelector('.close-btn')
         window.addEventListener('load', () => {
-            popup.classList.add('showPopup');
-            popup.childNodes[1].classList.add('showPopup')
-        }, 10000)
+            setTimeout(() => {
+                popup.classList.add('showPopup');
+                popup.childNodes[1].classList.add('showPopup')
+            }, 3000)
+            
+        });
 
         x.addEventListener('click', () => {
             popup.classList.remove('showPopup');
