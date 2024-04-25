@@ -391,7 +391,14 @@
     color: black;
 }
 
-
+.swiper-button-next::after,
+.swiper-button-next::before{
+    color: #F96B00;
+}
+.swiper-button-prev::after,
+.swiper-button-prev::before{
+    color: #F96B00;
+}
 .nav-btn::after,
 .nav-btn::before{
     color: #F96B00;
@@ -936,7 +943,8 @@ ul{
     .slide p {
         padding: 0 15px;
     }
-    .nav-btn{
+    .swiper-button-next,
+    .swiper-button-prev{
         display: none;
     }
     .video-container h1{
