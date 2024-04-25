@@ -391,8 +391,13 @@
     color: black;
 }
 
-
-.nav-brn::after,
+.swiper-btn-next::after,
+.swiper-btn-next::before,
+.swiper-button-prev::after,
+.swiper-button-prev::before{
+    color: #F96B00;
+}
+.nav-btn::after,
 .nav-btn::before{
     color: #F96B00;
 }
@@ -933,6 +938,9 @@ ul{
 
 
 @media screen and (max-width: 768px){
+    .slide p {
+        padding: 0 20px;
+    }
     .video-container h1{
         color: #fff;
         font-size: 60px;
