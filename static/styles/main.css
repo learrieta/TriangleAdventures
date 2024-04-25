@@ -392,7 +392,14 @@
 }
 
 
+.nav-brn::after,
+.nav-btn::before{
+    color: #F96B00;
+}
 
+.swiper-pagination-bullet{
+    background-color: #F96B00;
+}
 
 
 
