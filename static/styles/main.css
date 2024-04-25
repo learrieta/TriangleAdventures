@@ -356,7 +356,7 @@
     row-gap: 30px;
     background-color: #fc7f1f;
 }
-.testimonial, .image{
+.testimonial .image{
     height: 170px ;
     width: 170px;
     object-fit: cover;
