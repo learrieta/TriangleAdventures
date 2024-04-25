@@ -351,7 +351,7 @@
     position: relative;
     width: 100%;
     padding: 50px 0 ;
-    row-gap: 30px;
+    border-radius: 100px;
     background-color: #ffffff;
 }
 .testimonial .image{
@@ -371,6 +371,7 @@
 
 }
 .slide p {
+    font-family: sans-serif !important;
     text-align: center;
     padding: 0 160px;
     font-size: 18px;
@@ -384,7 +385,7 @@
     align-items: center;
 }
 .details .review-name{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: black;
 }
