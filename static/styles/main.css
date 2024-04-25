@@ -306,6 +306,10 @@
     margin: 0 50px;
     text-align: center;
 }
+.images_pre_title{
+    margin: 0 50px;
+    text-align: center;
+}
 .home_during_title{
     margin: 0 50px;
     text-align: center;
@@ -408,6 +412,11 @@
     background-color: #F96B00;
 }
 
+
+/*IMAGES SECTION*/
+.images_section{
+    padding: 0 50px;
+}
 
 
 /*Services Section*/
@@ -896,6 +905,12 @@
 .stay_e_t{
     color: #000000 !important;
     font-size: 50px;
+    
+    text-align: center !important;
+}
+.stay_e_i{
+    color: #000000 !important;
+    font-size: 30px;
     
     text-align: center !important;
 }
