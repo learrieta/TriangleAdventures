@@ -436,7 +436,7 @@
 }
 .slider-wrapper .image-list .image-item{
     width: 325px;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -464,6 +464,9 @@
     top: -2px;
     
 }
+.slider-wrapper{
+    position: relative;
+}
 .slider-scrollbar .scrollbar-thumb{
     position: absolute;
     height: 100%;
@@ -481,7 +484,28 @@
     bottom: -10px;
 }
 .slider-wrapper .slide-button{
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    border: none;
+    position: absolute;
+    outline: none;
+    background: #000;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
+.slider-wrapper .slide-button:hover{
+    background: #242424;
+}
+.slider-wrapper .slide-button#prev-slide{
+    left: -20px;
+}
+.slider-wrapper .slide-button#next-slide{
+    right: -20px;
 }
 
 /*Services Section*/
