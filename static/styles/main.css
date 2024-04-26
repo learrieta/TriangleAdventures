@@ -420,10 +420,7 @@
     justify-content: center;
     align-items: center;
 }
-.images_container{
-    max-width: 1200px;
-    width: 95%;
-}
+
 .slider-wrapper .image-list{
     display: grid;
     gap: 10px;
