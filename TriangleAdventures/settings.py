@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'base.apps.BaseConfig',
     'storages',
     'django.contrib.sites',
-    'django.contrib.sitemaps'
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
