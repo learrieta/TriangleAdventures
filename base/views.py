@@ -34,9 +34,9 @@ def contact(request):
         if form.is_valid():
             # Process the form data
             first_name = form.cleaned_data['first_name']
-            last_name = form.cleaned_data['last_name']
+            
             email = form.cleaned_data['email']
-            phone = form.cleaned_data['phone']
+            
             message = form.cleaned_data['message']
 
             email_from = settings.EMAIL_HOST_USER
@@ -46,7 +46,7 @@ def contact(request):
                 'Contact Form Submission from {}'.format(first_name),
                 message,
 
-                phone,
+                
                 email_from,
                 ['dharrington845@gmail.com'],
                 [],
