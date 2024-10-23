@@ -100,15 +100,15 @@
     place-content: center;
     opacity: 0;
     pointer-events: none;
-    transition: 200ms ease-in-out opacity;
+    transition: 150ms ease-in-out opacity;
 }
 .popup-content{
     width:80vw;
    
     opacity: 0;
     transform: translateY(20%);
-    transition: 200ms ease-in-out opacity,
-                200ms ease-in-out transform;
+    transition: 150ms ease-in-out opacity,
+                150ms ease-in-out transform;
     position: relative;
 }
 .close-btn{
